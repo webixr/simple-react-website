@@ -1,8 +1,4 @@
-import Features from "../Components/Features";
-import Header from "../Components/Header";
-import Portfolio from "../Components/Portfolio";
-import Services from "../Components/Services";
-
+import { Header, Features, Services, Portfolio } from "../Layouts/";
 const Home = () => {
   return (
     <>

@@ -1,10 +1,10 @@
 const Heading = ({ link, heading, subHeading }) => {
   return (
     <div id={link} className="w-full text-center">
-      <h1 className="text-8xl max-sm:text-6xl font-bold text-gray-300 uppercase">
+      <h2 className="text-[100px] max-sm:text-[72px] tracking-[-3px] font-extrabold text-[#ebeced] capitalize">
         {heading}
-      </h1>
-      <p className="text-lg text-[#797979] -mt-5">{subHeading}</p>
+      </h2>
+      <p className="text-xl text-[#797979] -mt-12 max-sm:-mt-10">{subHeading}</p>
     </div>
   );
 };

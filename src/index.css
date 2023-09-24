@@ -2,6 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+    --primary-color: #10cab7;
+    --secondary-color: #2c4755;
+    --dark-bg: #333333;
+    --dark-color: #444444;
+    --dark-light-color: #777777;
+    --section-background: #f6f6f6;
+    --section-padding: 60px;
+    --main-duration: 0.5s;
+}
+
 body {
     font-family: 'Readex Pro', sans-serif;
 }

@@ -1,7 +1,6 @@
-import Navbar from "./Components/Navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./Pages/Home";
-import Project from "./Pages/Project";
+import { Home, Project } from "./Pages";
+import { Footer, Navbar } from "./Layouts";
 
 function App() {
   return (
@@ -12,6 +11,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/projects/:slug" element={<Project />} />
         </Routes>
+        <Footer />
       </>
     </Router>
   );
