@@ -1,16 +1,19 @@
-import Features from "./Components/Features";
-import Header from "./Components/Header";
 import Navbar from "./Components/Navbar";
-import Services from "./Components/Services";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./Pages/Home";
+import Project from "./Pages/Project";
 
 function App() {
   return (
-    <div>
-      <Navbar />
-      <Header />
-      <Features />
-      <Services />
-    </div>
+    <Router>
+      <>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/projects/:slug" element={<Project />} />
+        </Routes>
+      </>
+    </Router>
   );
 }
 

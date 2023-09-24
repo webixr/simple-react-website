@@ -1,4 +1,4 @@
-import headerImage from "../assets/header.jpg";
+import headerImage from "../../public/header.jpg";
 const Header = () => {
   return (
     <header
@@ -11,7 +11,7 @@ const Header = () => {
 
       <div className="flex flex-col items-center gap-4 relative">
         <h1 className="font-bold text-5xl text-[#10cab7]">Hello There</h1>
-        <p className=" max-w-xs text-center text-lg">We are Leon - Super Creative & Minimal Agency Web Template</p>
+        <p className=" max-w-xs text-center text-lg font-light">We are Leon - Super Creative & Minimal Agency Web Template</p>
       </div>
     </header>
   );

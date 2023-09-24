@@ -1,5 +1,5 @@
 import { useState } from "react";
-import logo from "../assets/logo.png";
+import logo from "../../public/logo.png";
 
 const Navbar = () => {
   const [menu, setMenu] = useState(false);
@@ -8,7 +8,7 @@ const Navbar = () => {
       <div className="container mx-auto px-2 w-full h-full flex items-center justify-between">
         {/* logo */}
         <div className="w-fit h-full flex items-center">
-          <a href="#" className="w-14 h-6">
+          <a href="/#" className="w-14 h-6">
             <img src={logo} className="w-full h-full" />
           </a>
         </div>
@@ -24,13 +24,12 @@ const Navbar = () => {
             <span className="block w-full h-0.5 bg-black"></span>
           </div>
 
-          {/* list */}
-          
+          {/* list */}        
           <ul className={`w-52 ${menu === true ? "block" : "hidden"} h-max absolute top-full right-0 bg-[#f6f6f6]`}>
-            <li><a href="#" className="block w-full p-3 hover:pl-5 duration-150 capitalize text-base font-normal border-b border-[#ddd]">services</a></li>
-            <li><a href="#" className="block w-full p-3 hover:pl-5 duration-150 capitalize text-base font-normal border-b border-[#ddd]">portfolio</a></li>
-            <li><a href="#" className="block w-full p-3 hover:pl-5 duration-150 capitalize text-base font-normal border-b border-[#ddd]">about me</a></li>
-            <li><a href="#" className="block w-full p-3 hover:pl-5 duration-150 capitalize text-base font-normal">contact me</a></li>
+            <li><a href="/#Services" className="block w-full p-3 hover:pl-5 duration-150 capitalize text-base font-normal border-b border-[#ddd]">services</a></li>
+            <li><a href="/#Portfolio" className="block w-full p-3 hover:pl-5 duration-150 capitalize text-base font-normal border-b border-[#ddd]">portfolio</a></li>
+            <li><a href="/#About" className="block w-full p-3 hover:pl-5 duration-150 capitalize text-base font-normal border-b border-[#ddd]">about me</a></li>
+            <li><a href="/#Contact" className="block w-full p-3 hover:pl-5 duration-150 capitalize text-base font-normal">contact me</a></li>
           </ul>
         </div>
       </div>

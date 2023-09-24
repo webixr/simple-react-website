@@ -10,7 +10,7 @@ const Features = () => {
         <div className="flex flex-col items-center text-center justify-between gap-7">
           <FaWandMagicSparkles className="text-5xl text-[#10cab7]" />
           <h3 className="text-xl font-semibold">Tell Us Your Idea</h3>
-          <p className="text-lg font-medium text-[#777]">
+          <p className="text-lg font-normal text-[#777]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut lab
           </p>
@@ -18,7 +18,7 @@ const Features = () => {
         <div className="flex flex-col items-center text-center justify-between gap-7">
           <FaSketch className="text-5xl text-[#10cab7]" />
           <h3 className="text-xl font-semibold">Tell Us Your Idea</h3>
-          <p className="text-lg font-medium text-[#777]">
+          <p className="text-lg font-normal text-[#777]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut lab
           </p>
@@ -26,7 +26,7 @@ const Features = () => {
         <div className="flex flex-col items-center text-center justify-between gap-7">
           <FaEarthAmericas className="text-5xl text-[#10cab7]" />
           <h3 className="text-xl font-semibold">Tell Us Your Idea</h3>
-          <p className="text-lg font-medium text-[#777]">
+          <p className="text-lg font-normal text-[#777]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut lab
           </p>
